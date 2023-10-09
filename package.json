@@ -1,0 +1,16 @@
+{
+  "name": "sync-labs-docs",
+  "version": "1.0.0",
+  "description": "Sync Labs Technical Documentation",
+  "main": "index.js",
+  "repository": "https://github.com/synchronicity-labs/sync-labs-docs.git",
+  "author": "Noah Milberger <n.milberger@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.5.4",
+    "nextra": "^2.13.2",
+    "nextra-theme-docs": "^2.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
