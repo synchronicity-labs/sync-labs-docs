@@ -1,1 +1,35 @@
-# Welcome to the Sync Labs Docs
+---
+title: Introduction - Sync Labs Docs
+---
+
+# Sync Labs
+
+**Sync Labs** is a research company building generative video models + hosting production APIs that allows you to seamlessly lip-sync a video to an audio in any language in near real-time + plug into your own apps / platforms / services.
+
+import { Cards, Card } from "nextra/components";
+import { FaUser, FaKey, FaCode } from "react-icons/fa";
+import { HiSparkles } from "react-icons/hi";
+
+<Cards num={2}>
+  <Card
+    icon={<FaUser />}
+    title="Create a Sync Labs account"
+    href="https://app.synclabs.so/signup"
+  />
+  <Card icon={<FaKey />} title="Get an API key" href="/authentication" />
+</Cards>
+
+## Quick Start
+
+<Cards num={2}>
+  <Card
+    icon={<FaCode />}
+    title="RESTful API"
+    href="https://api.synclabs.so/playground"
+  />
+  <Card
+    icon={<HiSparkles />}
+    title="Playground"
+    href="https://app.synclabs.so/playground"
+  />
+</Cards>

@@ -1,0 +1,40 @@
+{
+  "-- Documentation": {
+    "type": "separator",
+    "title": "Documentation"
+  },
+
+  "index": "Introduction",
+  "authentication": "Authentication",
+  "rest-api": {
+    "title": "RESTful API ↗",
+    "href": "https://api.synclabs.org/playground"
+  },
+
+  "-- Resources": {
+    "type": "separator",
+    "title": "Resources"
+  },
+
+  "examples": "Example Builds",
+    "-- More": {
+    "type": "separator",
+    "title": "More"
+  },
+  
+  "faqs": "FAQs",
+  "pricing": "Pricing",
+
+  "api-status": {
+    "title": "API Status ↗",
+    "type": "page",
+    "href": "https://app.synclabs.so/",
+    "newWindow": true
+  },
+  "web-app": {
+    "title": "Web App ↗",
+    "type": "page",
+    "href": "https://app.synclabs.so/",
+    "newWindow": true
+  }
+}
