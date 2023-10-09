@@ -9,7 +9,7 @@ export default function IntroductionCards() {
     <CardsGrid>
       <Card
         title="Create an account"
-        description="Start Synchronizing Lips with Unprecedented Precision!"
+        description="Start synchronizing lips with unprecedented precision!"
         href={externalLinks.webapp_signup}
         icon={<FaUser size={26} />}
       />
