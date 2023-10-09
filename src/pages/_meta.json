@@ -28,7 +28,7 @@
   "api-status": {
     "title": "API Status ↗",
     "type": "page",
-    "href": "https://app.synclabs.so/",
+    "href": "https://status.synclabs.so/",
     "newWindow": true
   },
   "web-app": {
