@@ -9,13 +9,13 @@ export default function IntroductionCards() {
     <CardsGrid>
       <Card
         title="Create an account"
-        description="Start synchronizing lips with unprecedented precision!"
+        description="Start synchronizing lips with unprecedented precision by signing up!"
         href={externalLinks.webapp_signup}
         icon={<FaUser size={26} />}
       />
       <Card
         title="Get an API key"
-        description="Start generating premium content with AI by signing up for Leap."
+        description="Seamlessly integrate our Video Processing API for precise lip-syncing by getting your API key."
         href={internalLinks.authentication}
         icon={<FaKey size={26} />}
       />

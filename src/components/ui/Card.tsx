@@ -15,12 +15,12 @@ const Card: FC<Props> = ({ title, description, href, icon }) => {
   return (
     <Link href={href}>
       <div
-        className="flex flex-col rounded-md border border-white/10 hover:border-white/30 hover:text-white transition ease-linear "
+        className="flex flex-col h-full rounded-md border border-white/10 hover:border-white/30 hover:text-white transition ease-linear "
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
       >
         <div
-          className={`w-full p-4 gap-4 rounded-md transition ease-linear ${
+          className={`flex flex-col w-full h-full p-4 gap-4 rounded-md transition ease-linear ${
             isHovering && "bg-white/5"
           }`}
         >
