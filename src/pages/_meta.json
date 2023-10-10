@@ -10,20 +10,26 @@
     "title": "RESTful API ↗",
     "href": "https://api.synclabs.org/playground"
   },
-
+  
   "-- Resources": {
     "type": "separator",
-    "title": "Resources"
+    "title": "Resources",
+    "display": "hidden"
   },
 
-  "examples": "Example Builds",
-    "-- More": {
+  "examples": {
+    "title": "Example Builds", 
+    "display": "hidden"
+  },
+
+  "-- More": {
     "type": "separator",
-    "title": "More"
+    "title": "More",
+    "display": "hidden"
   },
   
-  "faqs": "FAQs",
-  "pricing": "Pricing",
+  "faqs": {"title": "FAQs", "display": "hidden"},
+  "pricing": {"title": "Pricing", "display": "hidden"},
 
   "api-status": {
     "title": "API Status ↗",
