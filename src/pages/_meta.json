@@ -10,6 +10,7 @@
     "title": "RESTful API ↗",
     "href": "https://api.synclabs.so/playground"
   },
+  "webhooks": "Webhooks",
   
   "-- Resources": {
     "type": "separator",
