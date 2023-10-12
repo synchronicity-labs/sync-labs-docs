@@ -1,0 +1,30 @@
+---
+title: Webhooks - Sync Labs Docs
+---
+
+import { Callout } from "nextra-theme-docs";
+
+## Webhooks
+
+Webhooks provide immediate notifications upon the completion of video generation.
+
+### Video Generation
+
+To use a webhook, specify the `webhookUrl` parameter when generating a video.
+
+Once the generation job completes or fails, a POST request will be sent to the `webhookUrl` with the details of the completed job:
+
+```bash
+{
+  "result": data,
+  "error": "Error message",
+}
+```
+
+<Callout emoji="ℹ">
+  Ensure your webhook URL is open to POST requests and properly handles them.
+</Callout>
+
+Data will be returned regardless of the status of the job. The error field will return `null` if the job completed successfully.
+
+Webhooks simplify your workflow by eliminating the need for frequent status inquiries. You can continue other tasks while waiting for a webhook notification.
