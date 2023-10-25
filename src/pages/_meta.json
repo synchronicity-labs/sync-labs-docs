@@ -25,12 +25,11 @@
 
   "-- More": {
     "type": "separator",
-    "title": "More",
-    "display": "hidden"
+    "title": "More"
   },
-  
+  "billing": { "title": "Billing" },
+
   "faqs": {"title": "FAQs", "display": "hidden"},
-  "pricing": {"title": "Pricing", "display": "hidden"},
 
   "api-status": {
     "title": "API Status ↗",
