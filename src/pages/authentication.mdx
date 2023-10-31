@@ -2,13 +2,19 @@
 title: Authentication - Sync Labs Docs
 ---
 
+import { Callout } from "nextra-theme-docs";
+
 ## Authentication
 
 In order to make reqeuests to the API, you'll need to get your `sync-labs-api-key`. After you [create an account](https://app.synclabs.so/signup) and login, navigate to the `Api Keys` page.
 
 From there, you can copy, create or revoke your API keys.
 
-![](../assets/images/api-key-page.png)
+1. Open the profile drop down menu
+   ![](../assets/images/open-profile-drop-down.png)
+
+2. Click on `Api Keys`
+   ![](../assets/images/open-api-keys.png)
 
 ### Creating an API Key
 
@@ -20,7 +26,10 @@ You can create a new API key at any time by clicking the `Create Key +` button.
 
 You can revoke an API Key at any time by clicking on the `Revoke` button next to the API Key you want to revoke.
 
-This will immediately revoke the API Key and any requests using that API Key will fail.
+<Callout type="warning" emoji="⚠️">
+  This will immediately revoke the API Key and any requests using that API Key
+  will fail.
+</Callout>
 
 **Step 1**
 
