@@ -14,11 +14,13 @@
   
   "-- Resources": {
     "type": "separator",
-    "title": "Resources"
+    "title": "Resources",
+    "display": "hidden"
   },
 
   "examples": {
-    "title": "Example Projects"
+    "title": "Example Projects",
+    "display": "hidden"
   },
 
   "-- More": {
