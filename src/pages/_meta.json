@@ -19,7 +19,7 @@
   },
 
   "examples": {
-    "title": "Example Builds", 
+    "title": "Example Projects",
     "display": "hidden"
   },
 
@@ -27,9 +27,8 @@
     "type": "separator",
     "title": "More"
   },
-  "billing": { "title": "Billing" },
 
-  "faqs": {"title": "FAQs", "display": "hidden"},
+  "billing": { "title": "Billing" },
 
   "api-status": {
     "title": "API Status ↗",
