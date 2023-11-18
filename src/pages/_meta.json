@@ -14,13 +14,11 @@
   
   "-- Resources": {
     "type": "separator",
-    "title": "Resources",
-    "display": "hidden"
+    "title": "Resources"
   },
 
   "examples": {
-    "title": "Example Projects",
-    "display": "hidden"
+    "title": "Example Projects"
   },
 
   "-- More": {
@@ -29,6 +27,8 @@
   },
 
   "billing": { "title": "Billing" },
+
+  "faqs": {"title": "FAQs", "display": "hidden"},
 
   "api-status": {
     "title": "API Status ↗",

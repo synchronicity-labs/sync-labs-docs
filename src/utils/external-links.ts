@@ -5,5 +5,6 @@ export const externalLinks = {
   webapp_playground: "https://app.synclabs.so/playground",
   webapp_signup: "https://app.synclabs.so/signup",
   // Open source projects
-  translation_ai: "https://translation-phi.vercel.app/",
+  translation_ai:
+    "https://github.com/synchronicity-labs/translation-starter#readme",
 };
