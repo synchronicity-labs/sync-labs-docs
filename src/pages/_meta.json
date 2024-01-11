@@ -21,6 +21,10 @@
     "title": "Example Projects"
   },
 
+  "errors": {
+    "title": "Web App Error Codes"
+  },
+
   "-- More": {
     "type": "separator",
     "title": "More"
