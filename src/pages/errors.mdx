@@ -35,8 +35,16 @@ $ date -u
 
 The first command will return the time on the AWS server, and the second command will return the time on your computer. If the times are off by more than **15 minutes**, you'll need to resynchronize your system's clock to resolve the problem.
 
-{/* ### Upload Error - NetworkingError
+### Upload Error - NetworkingError
 ![](../assets/images/aws-errors/AWS-NetworkingError-Error.png)
 
+This error is typically caused by a network connectivity issue. Please check your internet connection and try again.
+
+If your connection is stable and this error persists, please [report it to us](/errors#reporting-errors) and we'll be happy to help.
+
 ### Upload Error - TimeoutError
-![](../assets/images/aws-errors/AWS-TimeoutError-Error.png) */}
+![](../assets/images/aws-errors/AWS-TimeoutError-Error.png)
+
+This error is caused by a timeout in the connection between your computer and the AWS server. Please try your request again.
+
+If this error persists, please [report it to us](/errors#reporting-errors) and we'll be happy to help.
