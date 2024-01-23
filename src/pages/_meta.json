@@ -32,6 +32,8 @@
 
   "billing": { "title": "Billing" },
 
+  "models": { "title": "Models" },
+
   "faqs": {"title": "FAQs", "display": "hidden"},
 
   "api-status": {
