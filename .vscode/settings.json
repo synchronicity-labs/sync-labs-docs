@@ -1,0 +1,12 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "mdx.server.enable": true,
+  "eslint.enable": true,
+  "eslint.options": {
+    "extensions": [
+      ".ts",
+      ".tsx",
+      ".mdx"
+    ]
+  }
+}
