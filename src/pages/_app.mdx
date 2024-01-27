@@ -1,6 +1,11 @@
-import '@/styles/globals.css'
+import "@/styles/globals.css";
+import { Posthog } from "@/utils/posthog";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-
+  return (
+    <>
+      <Posthog />
+      <Component {...pageProps} />
+    </>
+  );
 }
